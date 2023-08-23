@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f8c6ed;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1{
+    align-items: center;
+    justify-content: center;
+    color: #c882e7;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dan{
+    display: grid;
+    place-items: center;
+    
+}
+
+#container{
+    min-height: 100hv;
+    width: 320px;
+    height: 420px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+}
+
+#container form{
+    height: 100%;
+    width: 100%;
+    background-color: #2a0a13;
+    border-radius: 10px;
+}
+
+#container input[type=texfield]{
+    height: 25%;
+    width: 100%;
+    cursor: default;
+    color: #f8efed;
+    text-align: right;
+    background-color:#2a0a13;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 10px;
+
+}
+
+#container input[type=button], input[type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-size: 26px;
+    border-radius: 100%;
+    border: 0;
+    font-family: 'Roboto Mono', monospace;
+    padding: 18px;
+    margin: 1px;
+    color: #f8efed;
+    font-weight: bold;
+    
+}
+
+.numero{
+    background-color: #6f2c30;
+}
+
+.operador{
+    background-color: #c882e7;
+}
+
+.otro{
+    background-color: #c882e7;
+}
+
+
